@@ -1,0 +1,76 @@
+/* public/css/styles.css */
+
+/* Ganti warna background card header */
+.card-header {
+    background-color: #4CAF50; /* Warna hijau yang konsisten dengan judul */
+    color: #FFF; /* Warna teks putih */
+}
+
+/* Ganti warna tombol Register */
+.btn-register {
+    background-color: #007BFF; /* Warna biru Bootstrap */
+    color: #FFF; /* Warna teks putih */
+}
+/* public/css/styles.css */
+
+body {
+    background-color: #f0f8ff; /* Warna biru muda sebagai latar belakang */
+    color: #000080; /* Warna biru tua untuk teks */
+    font-family: 'Arial', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000080; /* Garis tepi warna biru tua */
+    padding: 8px;
+    text-align: left;
+}
+
+a {
+    color: #000080; /* Warna biru tua untuk tautan */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat tautan dihover */
+}
+
+button {
+    background-color: #000080; /* Warna biru tua untuk tombol */
+    color: #ffffff; /* Warna teks pada tombol */
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0000a0; /* Warna biru tua sedikit lebih gelap saat dihover */
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+
